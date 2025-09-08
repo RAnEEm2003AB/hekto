@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width:calc(100% - 400px);
+    margin:auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+/*fonts*/
+:root{
+    --mainfont:"Vend Sans", sans-serif;
+}
+
+.sec-font{
+    font-family: "Vend Sans", sans-serif;
+}
+
+/*colors*/
+:root{
+--foshia:#F701A8;
+--lightgrey:#E7E6EF;
+--green:#05E6B7;
+--neyle: #2F1AC4;
+--grey:#8A8FB9;
+--lightpurp:#ECD2FA;
+ --lightblue:#F2F0FF;
+}
+ img .sofa{
+    position: absolute;
+    z-index: 2;
+ }
+ img .circ1{
+    position: absolute;
+    z-index: 1;
+ }
+ img .circ2{
+    position: absolute;
+    z-index: 0;
+ }
+.sofa-secstion{
+    position: relative;
+}
+
+
