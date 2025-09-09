@@ -38,20 +38,37 @@ ul{
 --lightpurp:#ECD2FA;
  --lightblue:#F2F0FF;
 }
- img .sofa{
-    position: absolute;
-    z-index: 2;
+ .grey{
+    color:#8A8FB9 ;
  }
- img .circ1{
-    position: absolute;
-    z-index: 1;
- }
- img .circ2{
-    position: absolute;
-    z-index: 0;
- }
-.sofa-secstion{
-    position: relative;
+.d-flex{
+    display: flex;
 }
-
-
+.f-dir{
+    flex-direction: column;
+}
+.g-20{
+    
+    gap: 20px;
+}
+.f-size{
+    font-size: 16px;
+}
+.f-s-size{
+    font-size: 12px;
+}
+.m-20{
+    margin-bottom: -10px;
+}
+.g-40{
+    gap:40px;
+}
+.g-5{
+    gap:5px;
+}
+.m-b-10{
+    margin-bottom: 10px;
+}
+.j-cont-b{
+    justify-content: space-between;
+}
