@@ -40,7 +40,7 @@ ul{
 }
 
 .sec-font{
-    font-family: "Vend Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 /*colors*/
@@ -52,6 +52,9 @@ ul{
 --grey:#8A8FB9;
 --lightpurp:#ECD2FA;
  --lightblue:#F2F0FF;
+}
+.dark-blue{
+    color: #151875;
 }
  .grey{
     color:#8A8FB9 ;

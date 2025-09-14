@@ -20,7 +20,7 @@ body {
   border: 2px solid var(--lightgrey);
   border-radius: 5px;
 }
-.search-box button {
+ .button {
   border: none;
   background-color: var(--foshia);
   outline: none;
@@ -49,10 +49,34 @@ body {
     display: none;
   }
 }
+
+/*clients-section*/
+.clients{
+    padding: 47px 0;
+}
+.clients .row{
+    overflow-x: auto;
+    gap:15px;
+}
+ .clients .client{
+        width: calc((100% - 60px) / 5);
+    }
+    .clients .client img{
+width:150px;
+height: 100px;
+    }
+@media screen and (max-width: 992px) {
+    .clients .client{
+        width: calc((100% -  20px) / 3);
+    }
+    
+}
+
+
 /*footer-section*/
 footer {
   background-color: var(--lightblue);
-  padding: 47px 0;
+  padding: 50px 0;
 }
 footer .row {
   gap: 20px;
@@ -102,18 +126,3 @@ footer .right-side .row {
 
 }
 
-/*hero-section*/
-.hero {
-  background-color: var(--lightblue);
-}
-.lamb {
-  position: absolute;
-  z-index: 1;
-  margin-left: -220px;
-}
-.hero .content {
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-  margin: auto;
-}
