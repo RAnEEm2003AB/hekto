@@ -72,6 +72,39 @@ height: 100px;
     
 }
 
+/*newslater-section*/
+.newslater{
+    background-image:url('../img/Rectangle 102 (1).webp') ;
+    background-size: cover;
+    text-align: center;
+    padding: 150px 20px;
+    background-repeat: no-repeat;
+    /*display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;*/
+    background-position: center center;
+    
+}
+.newslater h2{
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+.newslater .button{
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+.shop-btn{
+    transition: .5s;
+}
+.newslater a.shop-btn:hover {
+  background-color: #151875;
+}
+.newslater span{
+    display: block;
+    margin-top: 10px;
+}
 
 /*footer-section*/
 footer {
