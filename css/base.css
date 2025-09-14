@@ -59,6 +59,9 @@ ul{
  .grey{
     color:#8A8FB9 ;
  }
+ .light-grey{
+    background-color: #F6F7FB;
+ }
 .d-flex{
     display: flex;
 }
@@ -84,6 +87,9 @@ ul{
 .g-5{
     gap:5px;
 }
+.g-10{
+    gap:10px;
+}
 .m-b-10{
     margin-bottom: 10px;
 }
@@ -92,4 +98,10 @@ ul{
 }
 .f-wrap{
     flex-wrap: wrap;
+}
+.j-cont-c{
+    justify-content: center;
+}
+.a-item{
+    align-items: center;
 }
