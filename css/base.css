@@ -93,6 +93,9 @@ ul{
 .m-b-10{
     margin-bottom: 10px;
 }
+.m-b-30{
+    margin-bottom: 30px;
+}
 .j-cont-b{
     justify-content: space-between;
 }
@@ -104,4 +107,7 @@ ul{
 }
 .a-item{
     align-items: center;
+}
+.m-t-20{
+    margin-top: 30px;
 }

@@ -115,8 +115,74 @@ body {
  }
  .hero .button{
   align-self: center;
+  margin-bottom: 10px;
  }
 }
+
+/*Categories-section*/
+.Categories{
+  padding: 50px 0;
+  text-align: center;
+}
+.Categories .row{
+  
+}
+.Categories h2{
+   margin-bottom: 30px;
+}
+.Categories .Categorie{
+  flex-grow: 1;
+  flex-basis: 250px;
+}
+.Categorie .cat-img{
+  box-shadow: 0 0 20px 5px #F6F7FB;
+  border-radius: 50%;   
+  width: 250px;
+  height: 250px;
+  position: relative; 
+  /*box-shadow: -40px -10px 0 0 #9877E7;*/
+  overflow: hidden; 
+}
+.cat-img .background{
+  padding: 35px;
+  position: relative;
+  z-index: 1;
+}
+.cat-img::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+    left: -14px;
+    bottom:-10 ;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 23px solid transparent;
+  border-left-color: #9877E7; 
+  border-top-color: #9877E7; 
+  transform: rotate(266deg);
+  z-index: 0;
+  display: none;
+}
+.Categorie:hover .cat-img::before{
+  display: block;
+}
+
+
+.Categories .button {
+  background-color: var(--green);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: 210px;
+  text-align: center;
+  display: none;
+}
+.Categorie:hover .button{
+  display: block;
+}
+
 
 /*products-section*/
 .products {
