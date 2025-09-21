@@ -316,6 +316,78 @@ body {
   border-radius: 8px;
 }
 
+/*leatest-product-section*/
+
+.Leatest-Products{
+padding: 50px 0;
+text-align: center;
+}
+.Leatest-Products a:hover{
+  color: var(--foshia);
+  border-bottom: solid 1px;
+}
+.L-pro{
+flex-grow: 1;
+flex-basis: 300px;
+ width: 360px;
+  height: 310px;
+}
+.pro-img{
+  background-color: #F7F7F7;
+  padding: 30px 50px 5px 60px;
+  position: relative;
+  
+}
+.pro-img .sofa{
+  
+  width: 223px;
+  height: 229px;
+}
+
+.pro-info .last-price{
+  color: var(--foshia);
+}
+.pro-info h4{
+  border-bottom: 2px solid #EEEFFB;
+}
+
+.pro-img .sale{
+  position: absolute;
+  top: 8px;
+  left: 3px;
+  display: none;
+}
+.pro-img .icons{
+  position: absolute;
+  top: 149px;
+  left: 21px;
+  display: none;
+ 
+}
+.pro-img .icons button {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+.L-pro:hover .sale{
+  display: block;
+}
+.L-pro:hover .icons{
+  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.L-pro:hover .pro-img{
+  background-color: white;
+}
+
+.pro-img .icons button:hover {
+  border: solid #F7F7F7;
+  background-color: #F7F7F7;
+  border-radius: 50%;
+}
+
 /*offers*/
 .offers{
   padding: 50px 0;
@@ -330,6 +402,7 @@ body {
   flex-basis: 250px;
  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
+
 
 /*newslater-section*/
 .newslater {
@@ -367,7 +440,7 @@ body {
 /*footer-section*/
 footer {
   background-color: var(--lightblue);
-  padding: 50px 0;
+  padding: 70px 0;
 }
 footer .row {
   gap: 20px;

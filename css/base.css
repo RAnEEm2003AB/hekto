@@ -72,6 +72,9 @@ ul{
     
     gap: 20px;
 }
+.g-30{
+    gap:30px;
+}
 .f-size{
     font-size: 16px;
 }
@@ -116,4 +119,10 @@ ul{
 }
 .f-w-20{
     font-weight: 700;
+}
+.f-s-12{
+    font-size: 12px;
+}
+.line-thro{
+    text-decoration: line-through;
 }
