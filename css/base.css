@@ -126,3 +126,9 @@ ul{
 .line-thro{
     text-decoration: line-through;
 }
+.a-item-start{
+    align-items: flex-start;
+}
+.m-left-30{
+    margin-left: 30px;
+}
