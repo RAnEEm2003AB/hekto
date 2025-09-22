@@ -383,7 +383,7 @@ flex-basis: 300px;
 .bottom .clock{
   position: absolute;
   top: 58px;
-    left: 171px;
+  left: 171px;
 }
 .bottom .roof{
   position: absolute;
@@ -497,6 +497,47 @@ flex-basis: 300px;
   display: block;
   margin-top: 10px;
 }
+
+/*Leatest-Blog*/
+.Leatest-Blog{
+  padding: 50px 0;
+  text-align: center;
+}
+h2{
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+.blog{
+  flex-grow: 1;
+  flex-basis: 250px;
+  box-shadow: 0 4px 4px #00000040; 
+   
+}
+.blog .blog-img img {
+  width:100%;
+  
+}
+.customer .fa-pen-nib{
+color: var(--foshia);
+}
+.customer .fa-calendar-days{
+  color: #FFA454;
+}
+.blog-info{
+  padding: 20px;
+}
+.blog-info button {
+border: none;
+background: none;
+border-bottom: solid 1px;
+}
+.blog:hover h3{
+  color: var(--foshia);
+}
+.blog:hover button{
+  color: var(--foshia);
+}
+
 
 /*footer-section*/
 footer {
