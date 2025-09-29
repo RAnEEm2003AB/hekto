@@ -163,6 +163,11 @@ body {
   height: 260px;
   position: relative;
 }
+@media  screen and (max-width: 550px){
+.products .product img{
+  width: 100%;
+}
+}
 .products .product .info {
   padding: 20px;
   transition: all .5s;
@@ -414,6 +419,9 @@ height: 310px;
 .bottom .clock{
   width:40%;
   height: auto;
+}
+.chair .chair-img img{
+  width: 100%;
 }
 }
 .pink{
