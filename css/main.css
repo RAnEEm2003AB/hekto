@@ -272,23 +272,23 @@ text-align: center;
 .L-pro{
 flex-grow: 1;
 flex-basis: 300px;
- width: 360px;
-  height: 310px;
+width: 360px;
+height: 310px;
 }
 .pro-img{
   background-color: #F7F7F7;
   padding: 30px 50px 5px 60px;
   position: relative;
-  
 }
 .pro-img .sofa{
   
-  width: 223px;
+  width:223px;
   height: 229px;
 }
 
 .pro-info .last-price{
   color: var(--foshia);
+  
 }
 .pro-info h4{
   border-bottom: 2px solid #EEEFFB;
@@ -330,6 +330,15 @@ flex-basis: 300px;
   background-color: #F7F7F7;
   border-radius: 50%;
 }
+@media screen and (max-width: 550px){
+.pro-info .last-price{
+  display: none;
+}
+.pro-img .sofa{
+  width: 100%;
+}
+}
+
 
 /*offers*/
 .offers{
